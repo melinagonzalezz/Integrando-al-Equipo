@@ -1,5 +1,19 @@
 body {
+<<<<<<< Updated upstream
     background-color: rgb(255, 255, 165);
+=======
+    background-color: rgb(155, 198, 248);
+    background-image: url(fondo\ \(2\).jpeg);
+    background-size: cover;
+    margin: 50px;
+    font-family: KANIT;
+    color: #323335;
+    text-transform: uppercase
+}
+@font-face {
+    font-family: KANIT;
+    src: url(Kanit-Medium.ttf);
+>>>>>>> Stashed changes
 }
 
 .image{
