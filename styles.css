@@ -1,23 +1,19 @@
 body {
-<<<<<<< Updated upstream
-    background-color: rgb(255, 255, 165);
-=======
     background-color: rgb(155, 198, 248);
     background-image: url(fondo\ \(2\).jpeg);
     background-size: cover;
-    margin: 50px;
+    margin:50px;
     font-family: KANIT;
-    color: #323335;
-    text-transform: uppercase;
+    color:#323335;
+    text-transform:uppercase;
 }
 @font-face {
     font-family: KANIT;
     src: url(Kanit-Medium.ttf);
->>>>>>> Stashed changes
 }
 
 .image{
-    border: 5px solid green;
+    border: 5px solid grey;
     border-radius: 10px;
     height: 400px;
 }
@@ -30,4 +26,13 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+.container{
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffffb7; 
+    border-radius: 8px; 
 }
